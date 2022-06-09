@@ -1,0 +1,52 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_filtering": true,
+        "enable_sorting": true,
+        "collapse_on_larger_devices": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1649725583d4148876": {
+      "type": "apps",
+      "blocks": {
+        "5d63b190-a02c-44fa-b650-53685fd2afe8": {
+          "type": "shopify:\/\/apps\/test-app-kosuke-2\/blocks\/app-block\/92a7003e-bca8-4179-a3ea-c9f0de36ba1b",
+          "settings": {
+            "heading": "Cute Puppy Gallery",
+            "description": "A simple app block that shows a grid of images that can be customized by the merchant. Each image can be selected to show a popup with the full-sized image."
+          }
+        }
+      },
+      "block_order": [
+        "5d63b190-a02c-44fa-b650-53685fd2afe8"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "1649725583d4148876"
+  ]
+}
